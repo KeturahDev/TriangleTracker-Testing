@@ -21,5 +21,10 @@ namespace Triangle.Tests
     {
       Assert.AreEqual(true, Tracker.isEqualateral(3,3,3));
     }
+    [TestMethod]
+    public void isIsosceles_2SidesAreEqual_True()
+    {
+      Assert.AreEqual(true, Tracker.isIsosceles(3,3,1));
+    }
   }
 }
