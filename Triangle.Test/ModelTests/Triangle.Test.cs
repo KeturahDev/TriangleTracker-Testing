@@ -38,5 +38,11 @@ namespace Triangle.Tests
     {
       Assert.AreEqual(false, Tracker.isIsosceles(3,2,1));
     }
+
+    [TestMethod] //isScalene
+    public void isIsosceles_NoSidesEqual_True()
+    {
+      Assert.AreEqual(true, Tracker.isScalene(1,2,3));
+    }
   }
 }

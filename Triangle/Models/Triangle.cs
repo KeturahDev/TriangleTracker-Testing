@@ -53,6 +53,10 @@ namespace Triangle
         return false;
       }
     }
+    public static bool isScalene(int side1, int side2, int side3)
+    {
+      return false;
+    }
 
     public static void Main ()
     {
