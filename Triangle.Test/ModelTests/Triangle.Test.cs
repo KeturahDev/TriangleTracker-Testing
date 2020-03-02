@@ -16,5 +16,10 @@ namespace Triangle.Tests
     {
       Assert.AreEqual(false, Tracker.isTriangle(22,4,5));
     }
+    [TestMethod]
+    public void isEqualateral_AllSidesEqual_True()
+    {
+      Assert.AreEqual(true, Tracker.isEqualateral(3,3,3));
+    }
   }
 }
