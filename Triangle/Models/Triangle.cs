@@ -55,7 +55,14 @@ namespace Triangle
     }
     public static bool isScalene(int side1, int side2, int side3)
     {
-      return false;
+      if (side1 != side2 && side2 != side3 && side3 != side1)
+      {
+        return true;
+      }
+      else
+      {
+        return false;
+      }
     }
 
     public static void Main ()
