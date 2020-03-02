@@ -19,6 +19,8 @@ Practicing testing with MSTest in C#.
 | equalateral method returns false when all sides are equal  | sides = 6, 2, 7 | equalateral: false |
 | isosceles returns true when two sides are the same  | sides = 3, 3, 9 | isosceles: true |
 | scalene returns true when no sides are equal  | sides = 3, 6, 9 | scalene: true |
+| Console prints type of triangle to the console  | sides = 3, 6, 9 | your sides = are a triangle... scalene |
+
 
 
 
@@ -38,7 +40,7 @@ Practicing testing with MSTest in C#.
 
   1. Click on the *clone or download* button of this repository. You can download the project file clicking the **"Download Zip"** button, double clicking the file in downloads, and navigating to the index.html file and double clicking that. *Or*, you can copy the link that pops up when you've clicked the *clone or download* button above this README.md file...
   2. Navigate to your terminal, where you have previously installed git (if you have not done this yet, go ahead and do so now).
-  3. In terminal, change your directory to desktop, and then type **git clone https://github.com/KeturahDev/Banana-Bakery.git**.
+  3. In terminal, change your directory to desktop, and then type **git clone https://github.com/KeturahDev/TriangleTracker-Testing.git**.
   4. When you've pressed enter, my project will be cloned onto your desktop, and now you can change directory into it and type **"code ."** to open the projects files in Visual Studio Code!
   5. At the root directory for this project in your chosen command promt program, enter the command "dotnet build" followed by "dotnet run". You can now begin to play Banana Bakery!
 
