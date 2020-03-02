@@ -6,7 +6,7 @@ namespace Triangle.Tests
   [TestClass]
   public class TriangleTests
   {
-    [TestMethod]
+    [TestMethod] //istriangle
     public void isTriangle_SidesABLessThanOrEqualToC_True()
     {
       Assert.AreEqual(true, Tracker.isTriangle(3,4,5));
@@ -16,15 +16,27 @@ namespace Triangle.Tests
     {
       Assert.AreEqual(false, Tracker.isTriangle(22,4,5));
     }
-    [TestMethod]
+
+    [TestMethod] //isEqualateral
     public void isEqualateral_AllSidesEqual_True()
     {
       Assert.AreEqual(true, Tracker.isEqualateral(3,3,3));
     }
     [TestMethod]
+    public void isEqualateral_AllSidesEqual_False()
+    {
+      Assert.AreEqual(false, Tracker.isEqualateral(3,2,3));
+    }
+
+    [TestMethod] //isIsosceles
     public void isIsosceles_2SidesAreEqual_True()
     {
       Assert.AreEqual(true, Tracker.isIsosceles(3,3,1));
+    }
+    [TestMethod] 
+    public void isIsosceles_2SidesAreEqual_False()
+    {
+      Assert.AreEqual(false, Tracker.isIsosceles(3,2,1));
     }
   }
 }
