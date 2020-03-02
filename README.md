@@ -16,8 +16,9 @@ Practicing testing with MSTest in C#.
 | return true when the same of two sides is more than or equal to one side | sides = 6, 7, 12 | "this is a triangle" |
 | return false when the same of two sides is less than one side | sides = 1, 2, 55 | "this is not a triangle" |
 | equalateral method returns true when all sides are equal  | sides = 6, 6, 6 | equalateral: true |
-| return scalene when no sides are equal  | sides = 3, 6, 9 | "scalene" |
-| return isosceles when two sides are the same  | sides = 3, 3, 9 | "isosceles" |
+| equalateral method returns false when all sides are equal  | sides = 6, 2, 7 | equalateral: false |
+| isosceles returns true when two sides are the same  | sides = 3, 3, 9 | isosceles: true |
+| scalene returns true when no sides are equal  | sides = 3, 6, 9 | scalene: true |
 
 
 
