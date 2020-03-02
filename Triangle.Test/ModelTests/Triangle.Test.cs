@@ -11,5 +11,10 @@ namespace Triangle.Tests
     {
       Assert.AreEqual(true, Tracker.isTriangle(3,4,5));
     }
+    [TestMethod]
+    public void isTriangle_SidesABLessThanOrEqualToC_False()
+    {
+      Assert.AreEqual(false, Tracker.isTriangle(22,4,5));
+    }
   }
 }
